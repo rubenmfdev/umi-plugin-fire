@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vehicleo/umi-plugin-firebase.git"
+    "url": "git+https://github.com/rubenmfdev/umi-plugin-fire.git"
   },
   "scripts": {
     "start": "cross-env APP_ROOT=example umi dev",
@@ -68,12 +68,15 @@
   },
   "keywords": [
     "firebase",
-    "umi"
+    "umi",
+    "umijs",
+    "plugin",
+    "umi-plugin"
   ],
   "author": "rubenmf-dev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Vehicleo/umi-plugin-firebase/issues"
+    "url": "https://github.com/rubenmfdev/umi-plugin-fire/issues"
   },
-  "homepage": "https://github.com/Vehicleo/umi-plugin-firebase#readme"
+  "homepage": "https://github.com/rubenmfdev/umi-plugin-fire#readme"
 }

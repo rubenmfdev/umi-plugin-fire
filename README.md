@@ -9,7 +9,7 @@ Umi plugin for firebase.
 Add to package.json 
 
 ```bash
-    "umi-plugin-fire": "^1.0.0",
+    "umi-plugin-fire": "^1.0.2",
 ```
 ## Use
 
@@ -20,14 +20,14 @@ export default {
   plugins: [
     // ...
     ['umi-plugin-fire'],
-	firebase: {
-		apiKey: '',
-	    authDomain: '',
-	    projectId: '',
-	    storageBucket: '',
-	    messagingSenderId: '',
-	    appId: '',
-	    measurementId: ''
+    firebase: {
+        apiKey: '',
+        authDomain: '',
+        projectId: '',
+        storageBucket: '',
+        messagingSenderId: '',
+        appId: '',
+        measurementId: ''
 	}
     // ...
   ],
