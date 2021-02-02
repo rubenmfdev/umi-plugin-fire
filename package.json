@@ -1,12 +1,15 @@
 {
-  "name": "umi-plugin-firebase",
+  "name": "umi-plugin-fire",
   "main": "lib/index.js",
   "description": "firebase",
   "authors": {
     "name": "Ruben",
     "email": "rubenmfbasura@gmail.com"
   },
-  "repository": "Vehicleo/umi-plugin-firebase",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vehicleo/umi-plugin-firebase.git"
+  },
   "scripts": {
     "start": "cross-env APP_ROOT=example umi dev",
     "build": "father-build",
@@ -58,5 +61,19 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "version": "1.0.0",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "firebase",
+    "umi"
+  ],
+  "author": "rubenmf-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vehicleo/umi-plugin-firebase/issues"
+  },
+  "homepage": "https://github.com/Vehicleo/umi-plugin-firebase#readme"
 }
