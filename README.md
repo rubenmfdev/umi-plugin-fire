@@ -9,7 +9,7 @@ Umi plugin for firebase.
 Add to package.json 
 
 ```bash
-    "umi-plugin-fire": "^1.0.2",
+    "umi-plugin-fire": "^1.0.3",
 ```
 ## Use
 
