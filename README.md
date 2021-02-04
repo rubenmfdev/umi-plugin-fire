@@ -9,7 +9,7 @@ Umi plugin for firebase.
 Add to package.json 
 
 ```bash
-    "umi-plugin-fire": "^1.0.5",
+    "umi-plugin-fire": "^1.0.6",
 ```
 ## Use
 
@@ -19,7 +19,6 @@ Just setup the plugin on `.umirc.js` or in `config.js`
 export default {
   plugins: [
     // ...
-    ['umi-plugin-fire'],
     firebase: {
         apiKey: '',
         authDomain: '',

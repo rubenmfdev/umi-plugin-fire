@@ -35,7 +35,7 @@ export default (api: IApi) => {
 
     const indexPath = joinAbsPath('index.tsx');
 
-    const code = 'import firebase from \'firebase\';\n' +
+    const code = 'import firebase from \'firebase/app\';\n' +
       '\nconst config = "<%= Config %>";\n' +
       '\n' +
       'firebase.initializeApp(config);'
@@ -54,7 +54,7 @@ export default (api: IApi) => {
         source: './firebase/index',
       },
       {
-        source: 'firebase',
+        source: 'firebase/app',
         specifier: 'firebase'
       },
     ];
